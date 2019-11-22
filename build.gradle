@@ -1,0 +1,15 @@
+plugins {
+    id "java"
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+
+    testCompile 'com.fasterxml.jackson.core:jackson-databind:2.10.1'
+    testCompile 'junit:junit:4.12'
+}
